@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,IAAI;EACtB,WAAW,EAAE,SAAS;CACvB;;ACHD,AAEI,OAFG,CACL,aAAa,CACX,GAAG,CAAC;EACF,UAAU,EAAE,IAAI;CACjB;;AAJL,AAQM,OARC,CAML,WAAW,CACT,SAAS,CACP,CAAC,CAAC;EACA,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "main.scss",
+        "pages/_hero.scss",
+        "pages/_home.scss",
+        "components/_navbar.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
