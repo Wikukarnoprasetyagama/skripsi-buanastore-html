@@ -4,32 +4,38 @@
     font-family: "Merriweather";
     font-size: 32px;
     font-weight: 600;
-    color: #000;
+    color: #1e124c;
   }
-
+  p {
+    color: #5b5575;
+  }
   .price {
     color: #ff6b44;
   }
+  .next-category {
+    color: #11ac6a;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
 
+    &:hover {
+      color: #11ac6a;
+      font-weight: 400;
+      font-size: 18px;
+      text-decoration: underline;
+    }
+  }
   figure {
     position: relative;
     img {
       border-radius: 8px;
     }
-    .product-img a {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 9px;
-      background-color: rgba(0, 0, 0, 0.3);
-      opacity: 0;
-      transition: opacity 0.5s;
-      border-radius: 8px;
+  }
 
-      &:hover {
-        opacity: 1;
-      }
-    }
+  .name-product {
+    color: #0c0d36;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -10px;
   }
 }

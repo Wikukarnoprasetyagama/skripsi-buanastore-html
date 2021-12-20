@@ -9,7 +9,7 @@
     .nav-item .active {
       font-size: 16px;
       font-weight: 500;
-      color: #ff6b44;
+      color: #a43ce3;
     }
     .nav-item {
       a {
@@ -17,12 +17,22 @@
         font-weight: 400;
 
         &:hover {
-          color: #ff6b44;
+          color: #a43ce3;
         }
       }
     }
     .btn-sign-up {
-      background-color: #11ac6a;
+      background-color: #a43ce3;
+      border-radius: 25px;
+      width: 133px;
+    }
+    .btn-mobile-masuk {
+      background-color: #d4beff;
+      border-radius: 25px;
+    }
+    .btn-mobile-daftar {
+      background-color: #a43ce3;
+      border-radius: 25px;
     }
   }
 }
