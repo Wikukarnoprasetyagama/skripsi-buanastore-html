@@ -5,6 +5,23 @@
           box-shadow: 0 0 0 0.25rem rgba(164, 60, 227, 0.2) !important;
 }
 
+.breadcrumb {
+  margin-top: 70px;
+}
+
+.breadcrumb .breadcrumb-item a {
+  color: #0c0d36;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.breadcrumb .breadcrumb-item :active {
+  color: #5b5575;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 .section-content-carousel .carousel-inner .carousel-item .title {
   margin-top: 123px;
 }
@@ -49,7 +66,7 @@ body {
 }
 
 .section-category {
-  margin-top: 130px;
+  margin-top: 90px;
 }
 
 .section-category h3 {
