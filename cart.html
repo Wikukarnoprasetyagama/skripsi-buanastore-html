@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./libraries/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/main.css" />
+    <title>Buana Store - Web Toko Online Kec: Tapung Hilir Kab: Kampar</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/images/logo.svg" class="img-fluid" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Kategori</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Penghargaan</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="/login.html">Masuk</a>
+            </li>
+            <li class="nav-item mx-2 d-none d-md-block">
+              <a
+                class="btn btn-sign-up nav-link px-4 text-white"
+                href="/register.html"
+                >Daftar</a
+              >
+            </li>
+            <div class="d-grid gap-2">
+              <!-- <li class="nav-item mx-2">
+                <a
+                  class="btn btn-sign-up nav-link px-4 text-white btn-block"
+                  href="/register.html"
+                  >Daftar</a
+                >
+              </li> -->
+              <button
+                class="btn btn-mobile-masuk btn-primary border-0 d-md-none"
+                type="button"
+              >
+                Masuk
+              </button>
+              <button
+                class="btn btn-mobile-daftar btn-primary border-0 d-md-none"
+                type="button"
+              >
+                Daftar
+              </button>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/index.html">Beranda</a></li>
+          <li class="breadcrumb-item active my-auto" aria-current="page">
+            Detail Produk
+          </li>
+        </ol>
+      </div>
+    </nav>
+    <!-- End Breadcrumb -->
+
+    <!-- Cart -->
+    <section class="section-cart">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 table-responsive">
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">Foto Barang</th>
+                  <th scope="col">Nama &amp; Toko</th>
+                  <th scope="col">Jumlah</th>
+                  <th scope="col">Harga</th>
+                  <th scope="col">Aksi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    <div class="form-group my-auto">
+                      <img
+                        src="/images/product-cart-1.jpg"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                  </th>
+                  <td>
+                    <div class="form-group my-auto py-1" style="width: 250px">
+                      <div class="title-product">
+                        Juices Leci Special Edition
+                      </div>
+                      <div class="name-store">Podo Moro</div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group my-auto py-1" style="width: 200px">
+                      <div class="quantity">
+                        <button class="btn text-white btn-minus">
+                          <i class="fas fa-minus"></i>
+                        </button>
+                        <span class="mx-4">2</span>
+                        <button class="btn text-white btn-plus">
+                          <i class="fas fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group my-auto py-2" style="width: 130px">
+                      <div class="price">Rp. 13000</div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group my-auto py-1">
+                      <button class="btn text-white btn-hapus">Hapus</button>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Cart -->
+
+    <!-- Address -->
+    <section class="section-address">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12">
+            <h3>Alamat Tujuan</h3>
+          </div>
+          <form action="#" class="mt-3">
+            <div class="row">
+              <div class="col-12 col-md-4 mb-3">
+                <label for="village" class="form-label">Nama Desa</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="village"
+                  placeholder="Tanah Tinggi"
+                />
+              </div>
+              <div class="col-12 col-md-4 mb-3">
+                <label for="street" class="form-label">Nama Jalan</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="street"
+                  placeholder="Purbaya"
+                />
+              </div>
+              <div class="col-12 col-md-4 mb-3">
+                <label for="name" class="form-label">Nama Penerima</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Wiku Karno"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <label for="phone" class="form-label">Nomor Hp *aktif</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="phone"
+                  placeholder="087831247352"
+                />
+              </div>
+              <div class="col-12 col-md-8">
+                <label for="address" class="form-label">Alamat Lengkap</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="address"
+                  placeholder="Rumah, kos / kontrakan, warna rumah, dll."
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End Address -->
+
+    <!-- Price Detail -->
+    <section class="section-detail-price">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h3>Rincian Harga</h3>
+            <div class="row">
+              <div class="col-12 col-md-10 mb-5">
+                <div class="detail-price">
+                  <div class="card">
+                    <div class="card-body">
+                      <table>
+                        <tr>
+                          <div class="form-group name-product">
+                            <th width="50%">Juices Leci Special Edition</th>
+                            <td width="50%" class="text-end">13K</td>
+                          </div>
+                        </tr>
+                        <tr>
+                          <div class="form-group">
+                            <th width="50%">Ayam Geprek</th>
+                            <td width="50%" class="text-end">18K</td>
+                          </div>
+                        </tr>
+                        <tr>
+                          <div class="form-group">
+                            <th width="50%">Ongkos Kirim</th>
+                            <td width="50%" class="text-end">7K</td>
+                          </div>
+                        </tr>
+                        <tr>
+                          <div class="form-group">
+                            <th width="50%">Diskon</th>
+                            <td width="50%" class="text-end">-</td>
+                          </div>
+                        </tr>
+                      </table>
+                      <hr />
+                      <div class="subtotal">
+                        <table>
+                          <tr>
+                            <div class="form-group">
+                              <th width="10%">Total</th>
+                              <td width="90%" class="text-end">
+                                <strong>38K</strong>
+                              </td>
+                            </div>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 payment-method">
+            <h3>Metode Pembayaran</h3>
+            <div class="warning">
+              <p>
+                Nb: Harap pastikan barang yang anda pilih sudah sesuai, dan
+                alamat tujuan sudah benar.
+              </p>
+            </div>
+            <div class="d-grid gap-2">
+              <a href="#" class="btn btn-cod" type="button">Bayar Ditempat</a>
+              <a href="#" class="btn btn-otomatis" type="button"
+                >Bayar Otomatis</a
+              >
+            </div>
+            <div class="step-payment mt-2">
+              <a href="#">cara pembayaran otomatis?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Price Detail -->
+
+    <!-- Footer -->
+    <section class="section-footer border-top">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-12 col-lg-3">
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <img src="/images/logo.svg" alt="" />
+              </div>
+              <div class="flex-grow-1 ms-3 mt-2">
+                <h3>BuanaStore</h3>
+              </div>
+            </div>
+            <div class="description mt-3">
+              <p>
+                Perusahaan yang bergerak dibidang jual beli barang online sesuai
+                dengan kebutuhan anda
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h5>Tentang</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#">Aturan Pengguna</a>
+              </li>
+              <li>
+                <a href="#">Kebijakan Privasi</a>
+              </li>
+              <li>
+                <a href="#">Syarat & Ketentuan</a>
+              </li>
+              <li>
+                <a href="#">Karir</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h5>Bantuan</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#">Layanan Pelanggan</a>
+              </li>
+              <li>
+                <a href="#">Pertanyaan Umum</a>
+              </li>
+              <li>
+                <a href="#">Metode Pembayaran</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h5>Kontak</h5>
+            <div class="address mt-2">
+              Jln. Purbaya, Tanah Tinggi, Kec.Tapung Hilir, Kab Kampar
+            </div>
+            <div class="email mt-2">cs@buanastore.com</div>
+            <div class="phone mt-2">+62 822 - 9502 - 4272</div>
+            <div class="row mb-3 social-media mt-3">
+              <div class="col-1 col-lg-2">
+                <a href="#">
+                  <img
+                    src="/images/ic_youtube.png"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-1 col-lg-2">
+                <a href="#">
+                  <img
+                    src="/images/ic_instagram.png"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-1 col-lg-2">
+                <a href="#">
+                  <img
+                    src="/images/ic_facebook.png"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 mb-3 text-center copyright">
+        2021 Copyright • All rights reserved • buanastore.com
+      </div>
+    </section>
+    <!-- End Footer -->
+    <!-- Script -->
+    <script src="/libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./libraries/aos/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- End Script -->
+  </body>
+</html>

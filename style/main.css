@@ -22,6 +22,72 @@
   font-weight: normal;
 }
 
+.section-notfound {
+  margin-top: 5%;
+}
+
+.section-notfound img {
+  max-height: 300px;
+}
+
+.section-notfound h3 {
+  font-family: "Merriweather";
+  font-size: 32px;
+  font-weight: 600;
+  color: #1e124c;
+}
+
+.section-notfound p {
+  color: #5b5575;
+}
+
+.section-notfound .btn-back {
+  width: 220px;
+  margin-top: 30px;
+  background: #a43ce3;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.section-transaction-success {
+  margin-top: 5%;
+}
+
+.section-transaction-success img {
+  max-height: 300px;
+}
+
+.section-transaction-success h3 {
+  font-family: "Merriweather";
+  font-size: 32px;
+  font-weight: 600;
+  color: #1e124c;
+}
+
+.section-transaction-success p {
+  color: #5b5575;
+}
+
+.section-transaction-success .btn-back {
+  width: 170px;
+  margin-top: 30px;
+  background: #a43ce3;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 .section-content-carousel .carousel-inner .carousel-item .title {
   margin-top: 123px;
 }
@@ -194,6 +260,203 @@ body {
 
 .section-popular figure .product-img a:hover {
   opacity: 1;
+}
+
+.section-cart {
+  margin-top: 70px;
+}
+
+.section-cart table thead tr {
+  color: #0c0d36;
+}
+
+.section-cart table tbody th img {
+  max-height: 100px;
+  max-width: 110px;
+}
+
+.section-cart table tbody .title-product {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+.section-cart table tbody .name-store {
+  color: #c4c4c4;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section-cart table tbody .btn-minus {
+  background: #ffcf00;
+  border-radius: 4px;
+}
+
+.section-cart table tbody .btn-plus {
+  background: #29a867;
+  border-radius: 4px;
+}
+
+.section-cart table tbody .btn-hapus {
+  background: #cc2626;
+  border-radius: 25px;
+  width: 150px;
+}
+
+.section-cart table tbody .price {
+  color: #ff6b44;
+  font-size: 18px;
+}
+
+.section-address {
+  margin-top: 100px;
+}
+
+.section-address h3 {
+  font-family: "Merriweather";
+  font-size: 32px;
+  font-weight: 600;
+  color: #1e124c;
+}
+
+.section-detail-price {
+  margin-top: 100px;
+}
+
+.section-detail-price h3 {
+  font-family: "Merriweather";
+  font-size: 32px;
+  font-weight: 600;
+  color: #1e124c;
+}
+
+.section-detail-price .detail-price .card {
+  margin-top: 20px;
+}
+
+.section-detail-price .detail-price .card .card-body th {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.section-detail-price .detail-price .card .card-body strong {
+  color: #ff6b44;
+}
+
+.section-detail-price .payment-method .warning {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #afafaf;
+}
+
+.section-detail-price .payment-method .btn-cod {
+  margin-top: 25px;
+  background: #d4beff;
+  border-radius: 25px;
+  color: #5b5575;
+}
+
+.section-detail-price .payment-method .btn-otomatis {
+  background: #a43ce3;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.section-detail-price .payment-method .step-payment a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #a43ce3;
+  margin-top: 10px;
+}
+
+.section-gallery {
+  margin-top: 70px;
+}
+
+.section-gallery h3 {
+  font-family: "Merriweather";
+  font-size: 32px;
+  font-weight: 600;
+  color: #1e124c;
+}
+
+.section-gallery .name-store p {
+  color: #c4c4c4;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.section-gallery .name-product h5 {
+  color: #000;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.section-gallery .price {
+  color: #ff6b44;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-gallery .quantity .btn-minus {
+  background-color: #edc500;
+}
+
+.section-gallery .quantity .btn-plus {
+  background-color: #29a867;
+}
+
+.section-gallery .add-to-cart {
+  margin-top: 85px;
+}
+
+.section-gallery .add-to-cart .btn-add-to-cart {
+  background-color: #a43ce3;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 18px;
+}
+
+.section-gallery .description-product h3 {
+  font-family: "Merriweather";
+  font-size: 32px;
+  font-weight: 600;
+  color: #1e124c;
+}
+
+.section-gallery .description-product .description {
+  margin-top: 30px;
+}
+
+.section-gallery .description-product .description p {
+  color: #525252;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.section-gallery .reviews {
+  margin-top: 26px;
+}
+
+.section-gallery .reviews .customer-reviews {
+  margin-top: -30px;
+}
+
+.section-gallery .reviews img {
+  max-height: 70px;
+}
+
+.section-gallery .reviews h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0c0d36;
+}
+
+.section-gallery .reviews p {
+  color: #525252;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .section-login {

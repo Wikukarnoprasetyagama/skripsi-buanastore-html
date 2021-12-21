@@ -18,3 +18,61 @@
     font-weight: normal;
   }
 }
+
+.section-notfound {
+  margin-top: 5%;
+  img {
+    max-height: 300px;
+  }
+  h3 {
+    font-family: "Merriweather";
+    font-size: 32px;
+    font-weight: 600;
+    color: #1e124c;
+  }
+  p {
+    color: #5b5575;
+  }
+  .btn-back {
+    width: 220px;
+    margin-top: 30px;
+    background: #a43ce3;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+  }
+}
+
+.section-transaction-success {
+  margin-top: 5%;
+  img {
+    max-height: 300px;
+  }
+  h3 {
+    font-family: "Merriweather";
+    font-size: 32px;
+    font-weight: 600;
+    color: #1e124c;
+  }
+  p {
+    color: #5b5575;
+  }
+  .btn-back {
+    width: 170px;
+    margin-top: 30px;
+    background: #a43ce3;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
