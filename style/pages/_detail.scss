@@ -1,4 +1,12 @@
 .section-gallery {
+  .rating-product {
+    .fa-star {
+      color: #ffd401;
+    }
+    .fa-star-half-alt {
+      color: #ffd401;
+    }
+  }
   margin-top: 70px;
   h3 {
     font-family: "Merriweather";
@@ -26,17 +34,15 @@
     font-size: 20px;
     font-weight: 500;
   }
-
-  .quantity {
-    .btn-minus {
-      background-color: #edc500;
-    }
-    .btn-plus {
-      background-color: #29a867;
-    }
+  .btn-buy-now {
+    background-color: #efefef;
+    border-color: #a43ce3;
+    color: #434343;
+    border-radius: 25px;
+    font-size: 18px;
   }
   .add-to-cart {
-    margin-top: 85px;
+    margin-top: 50px;
     .btn-add-to-cart {
       background-color: #a43ce3;
       color: #fff;

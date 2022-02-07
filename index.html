@@ -57,13 +57,6 @@
               >
             </li>
             <div class="d-grid gap-2">
-              <!-- <li class="nav-item mx-2">
-                <a
-                  class="btn btn-sign-up nav-link px-4 text-white btn-block"
-                  href="/register.html"
-                  >Daftar</a
-                >
-              </li> -->
               <button
                 class="btn btn-mobile-masuk btn-primary border-0 d-md-none"
                 type="button"
@@ -81,7 +74,6 @@
         </div>
       </div>
     </nav>
-    <!-- End Navbar -->
 
     <!-- Carousel -->
     <section class="section-content-carousel">
@@ -108,14 +100,14 @@
                         Jelajahi barang kebutuhan anda & dapatkan <br />
                         diskon setiap bulannya
                       </p>
-                      <a href="#" class="btn btn-lg btn-get-now"
+                      <a href="#product" class="btn btn-lg btn-get-now"
                         >Dapatkan Sekarang</a
                       >
                     </div>
-                    <div class="col-lg-4 offset-2">
+                    <div class="col-lg-4 offset-2 d-none d-lg-block">
                       <figure class="figure text-center">
                         <img
-                          src="/images/brand_image.jpg"
+                          src="/images/brand_image.svg"
                           class="img-figure img-fluid w-100"
                           alt=""
                         />
@@ -210,7 +202,7 @@
     <!-- End Category -->
 
     <!-- New Product -->
-    <section class="section-product">
+    <section class="section-product" id="product">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6">
@@ -229,28 +221,25 @@
           >
             <figure class="figure">
               <div class="product-img">
-                <a href="/details.html">
+                <a href="/detail.html">
                   <img
                     src="/images/product_1.jpg"
                     class="figure-img img-fluid w-100"
                     alt=""
                   />
                 </a>
+                <div class="discount-image d-flex justify-content-end">
+                  <img
+                    src="/images/ic_discount_empty.svg"
+                    class="align-items-end img-fluid"
+                    alt=""
+                  />
+                  <div class="discount-badge">25%</div>
+                </div>
               </div>
             </figure>
-            <div class="row">
-              <div class="col-6">
-                <h4 class="name-product">Pizza Hut</h4>
-                <div class="price">$890</div>
-              </div>
-              <div class="col-6 text-end">
-                <img
-                  src="/images/ic_discount_value.svg"
-                  class="img-fluid figure-img"
-                  alt=""
-                />
-              </div>
-            </div>
+            <h4 class="name-product">Pizza Hut</h4>
+            <div class="price">$890</div>
           </div>
           <div
             class="col-6 col-lg-3 mb-3"
@@ -259,22 +248,17 @@
           >
             <figure class="figure">
               <div class="product-img">
-                <a href="/details.html">
+                <a href="/detail.html">
                   <img
                     src="/images/product_2.jpg"
-                    class="figure-img img-fluid w-100"
+                    class="figure-img img-fluid w-100 img-fluid product-image"
                     alt=""
                   />
                 </a>
               </div>
             </figure>
-            <div class="row">
-              <div class="col-6">
-                <h4 class="name-product">Pizza Hut</h4>
-                <div class="price">$890</div>
-              </div>
-              <div class="col-6 text-end"></div>
-            </div>
+            <h4 class="name-product">Pizza Hut</h4>
+            <div class="price">$890</div>
           </div>
           <div
             class="col-6 col-lg-3 mb-3"
@@ -283,28 +267,24 @@
           >
             <figure class="figure">
               <div class="product-img">
-                <a href="/details.html">
+                <a href="/detail.html">
                   <img
-                    src="/images/product_1.jpg"
-                    class="figure-img img-fluid w-100"
+                    src="/images/product_3.jpg"
+                    class="figure-img img-fluid w-100 product-image"
                     alt=""
                   />
                 </a>
+                <div class="discount-image d-flex justify-content-end">
+                  <img
+                    src="/images/ic_discount_value.svg"
+                    class="align-items-end w-100 img-fluid"
+                    alt=""
+                  />
+                </div>
               </div>
             </figure>
-            <div class="row">
-              <div class="col-6">
-                <h4 class="name-product">Pizza Hut</h4>
-                <div class="price">$890</div>
-              </div>
-              <div class="col-6 text-end">
-                <img
-                  src="/images/ic_discount_value.svg"
-                  class="img-fluid figure-img"
-                  alt=""
-                />
-              </div>
-            </div>
+            <h4 class="name-product">Pizza Hut</h4>
+            <div class="price">$890</div>
           </div>
           <div
             class="col-6 col-lg-3 mb-3"
@@ -313,130 +293,17 @@
           >
             <figure class="figure">
               <div class="product-img">
-                <a href="/details.html">
+                <a href="/detail.html">
                   <img
-                    src="/images/product_2.jpg"
-                    class="figure-img img-fluid w-100"
+                    src="/images/product_4.jpg"
+                    class="figure-img img-fluid w-100 product-image"
                     alt=""
                   />
                 </a>
               </div>
             </figure>
-            <div class="row">
-              <div class="col-6">
-                <h4 class="name-product">Pizza Hut</h4>
-                <div class="price">$890</div>
-              </div>
-              <div class="col-6 text-end"></div>
-            </div>
-          </div>
-          <div
-            class="col-6 col-lg-3 mb-3"
-            data-aos="zoom-in"
-            data-aos-delay="500"
-          >
-            <figure class="figure">
-              <div class="product-img">
-                <a href="/details.html">
-                  <img
-                    src="/images/product_5.jpg"
-                    class="figure-img img-fluid w-100"
-                    alt=""
-                  />
-                </a>
-              </div>
-            </figure>
-            <div class="row">
-              <div class="col-6">
-                <h4 class="name-product">Pizza Hut</h4>
-                <div class="price">$890</div>
-              </div>
-              <div class="col-6 text-end"></div>
-            </div>
-          </div>
-          <div
-            class="col-6 col-lg-3 mb-3"
-            data-aos="zoom-in"
-            data-aos-delay="600"
-          >
-            <figure class="figure">
-              <div class="product-img">
-                <a href="/details.html">
-                  <img
-                    src="/images/product_6.jpg"
-                    class="figure-img img-fluid w-100"
-                    alt=""
-                  />
-                </a>
-              </div>
-            </figure>
-            <div class="row">
-              <div class="col-6">
-                <h4 class="name-product">Pizza Hut</h4>
-                <div class="price">$890</div>
-              </div>
-              <div class="col-6 text-end">
-                <img
-                  src="/images/ic_discount_value.svg"
-                  class="img-fluid figure-img"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-6 col-lg-3 mb-3"
-            data-aos="zoom-in"
-            data-aos-delay="700"
-          >
-            <figure class="figure">
-              <div class="product-img">
-                <a href="/details.html">
-                  <img
-                    src="/images/product_7.jpg"
-                    class="figure-img img-fluid w-100"
-                    alt=""
-                  />
-                </a>
-              </div>
-            </figure>
-            <div class="row">
-              <div class="col-6">
-                <h4 class="name-product">Pizza Hut</h4>
-                <div class="price">$890</div>
-              </div>
-              <div class="col-6 text-end"></div>
-            </div>
-          </div>
-          <div
-            class="col-6 col-lg-3 mb-3"
-            data-aos="zoom-in"
-            data-aos-delay="800"
-          >
-            <figure class="figure">
-              <div class="product-img">
-                <a href="/details.html">
-                  <img
-                    src="/images/product_8.jpg"
-                    class="figure-img img-fluid w-100"
-                    alt=""
-                  />
-                </a>
-              </div>
-            </figure>
-            <div class="row">
-              <div class="col-6">
-                <h4 class="name-product">Pizza Hut</h4>
-                <div class="price">$890</div>
-              </div>
-              <div class="col-6 text-end">
-                <img
-                  src="/images/ic_discount_value.svg"
-                  class="img-fluid figure-img"
-                  alt=""
-                />
-              </div>
-            </div>
+            <h4 class="name-product">Pizza Hut</h4>
+            <div class="price">$890</div>
           </div>
         </div>
       </div>
